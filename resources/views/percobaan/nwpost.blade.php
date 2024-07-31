@@ -27,7 +27,7 @@
    <h1>{{ $jipost ["title"] }}</h1>
 
    {{-- ini keterangan --}}
-   {{ $Postingan->katagori->name }}
+   {{-- {{ $Postingan-katagori-name }} --}}  (ini masih error)
 
    {{-- ini isi --}}
         {!! $jipost->body !!}
